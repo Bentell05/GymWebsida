@@ -1,0 +1,185 @@
+/* Bakgrundsfärg */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+/* Rubrik */
+h1 {
+  text-align: center;
+  color: red;
+}
+
+/* Banner */
+#banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Sökfält */
+#search-bar {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Behållare för rutorna */
+#categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Rutorna */
+.category {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Produktlistan */
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Produktkort */
+.product {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Lägg till en ruta för bild */
+.product-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* Logga in knapp */
+#loginButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+/* Filtrera produkter */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+header {
+  position: fixed;
+  top:0px;
+  background-color: rgb(28, 28, 28);
+  width:100%;
+  height:70px;
+}
+
+nav {
+  display: flex;
+  height: inherit;
+}
+nav #navContainer {
+  display: flex;
+  width:90%;
+  color:black;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(44, 42, 42);
+  height:100px;
+  width:100%
+}
+
+footer #footerContainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+body {
+  font-family: 'Gravitas One', Gravitas+One;
+}
+
+#loginPopup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#loginContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#loginContent h2 {
+  margin-top: 0;
+}
+
+#loginContent form {
+  margin-top: 20px;
+}
+
+#loginContent label {
+  display: block;
+}
+
+#loginContent input[type="text"],
+#loginContent input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#loginContent input[type="submit"] {
+  background-color: #505750;
+  color: rgb(71, 66, 66);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#loginContent input[type="submit"]:hover {
+  background-color: #3e3e3e;
+}

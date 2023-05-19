@@ -1,0 +1,50 @@
+body {
+  background-image: url('bilder/gymbackground.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.contact-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  animation: slide-in 1s ease-in-out;
+}
+
+.contact-table th,
+.contact-table td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+footer {
+  background-color: rgb(44, 42, 42);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer #footerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding-right: 20px;
+}

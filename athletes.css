@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .athlete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: 40px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .athlete img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .athlete h3 {
+    margin-top: 0;
+  }
+  
+  .athlete li {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: rgb(44, 42, 42);
+    height:100px;
+    width:100%
+  }
+  
+  footer #footerContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  ul {
+    
+  }
